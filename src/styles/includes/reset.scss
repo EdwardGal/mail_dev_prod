@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,
+html {
+  min-height: 100%;
+}
+
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+input,
+textarea,
+label,
+button {
+  display: block;
+  width: 100%;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  height: 38px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+input {
+  height: 32px;
+  padding: 4px;
+	outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+a{
+	pointer-events: none;
+}

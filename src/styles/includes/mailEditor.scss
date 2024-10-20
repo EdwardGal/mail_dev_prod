@@ -1,0 +1,15 @@
+.mail-editor {
+  flex-basis: 600px;
+  overflow: scroll;
+}
+.block {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  &._active {
+    border-color: #007bff; /* Цвет границы при фокусе */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Эффект тени при фокусе */
+    outline: none; /* Убираем стандартную обводку */
+  }
+}

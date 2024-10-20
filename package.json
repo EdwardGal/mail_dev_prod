@@ -1,0 +1,39 @@
+{
+  "name": "mail_dev",
+  "version": "1.0.0",
+  "description": "template for mail dev",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "cross-env NODE_ENV=production webpack --stats=minimal"
+  },
+  "author": "edward_gal",
+  "license": "ISC",
+  "devDependencies": {
+    "@codemirror/lang-html": "^6.4.9",
+    "clean-webpack-plugin": "^3.0.0",
+    "codemirror": "^6.0.1",
+    "copy-webpack-plugin": "^6.4.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^4.3.0",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "typograf": "^7.4.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@codemirror/lang-css": "^6.3.0",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "sortablejs": "^1.15.3"
+  }
+}
